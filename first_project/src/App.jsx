@@ -1,7 +1,8 @@
 // import Login,{Profile,Setting,UserKey} from './UserComponent' // for named,variable import we use curly brackets 
 // import MyProfile from './Exercise1Profile';
 // import JSWCB from './JSXwithCurly';
-import CFcall from './Click_FunctionCall';
+// import CFcall from './Click_FunctionCall';
+import State from "./State_in_react";
 function App() {
   let x=10;
   let y=20;
@@ -23,7 +24,11 @@ function App() {
      <JSWCB></JSWCB>  */}
 
 
-     <CFcall></CFcall>
+     {/* <CFcall></CFcall> */}
+
+        <State></State>
+
+
 
     </div>
   );
