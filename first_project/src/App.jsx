@@ -1,5 +1,6 @@
 import Login,{Profile,Setting,UserKey} from './UserComponent' // for named,variable import we use curly brackets 
 import MyProfile from './Exercise1Profile';
+import JSWCB from './JSXwithCurly';
 function App() {
   let x=10;
   let y=20;
@@ -16,6 +17,9 @@ function App() {
      <button onclick={()=>alert("Hello")}>click here</button>
 
      <MyProfile></MyProfile>
+
+     <h1>JSX with curly braces</h1>
+     <JSWCB></JSWCB>
 
     </div>
   );
