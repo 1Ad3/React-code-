@@ -5,11 +5,28 @@
 // import State from "./State_in_react";
 // import Counter from "./counter";
 // import Togel from "./Togel_hide";
-import MCondition from "./Multiple_condition";
+// import MCondition from "./Multiple_condition";
+import Prop from "./Props";
 
 function App() {
-  let x=10;
-  let y=20;
+  // let UserObj={
+  //     name:"Allahdad",
+  //     section:'D',
+  //     age:21
+  // }
+
+  //  let UserObj1 = {
+  //    name: "Allahdad",
+  //    section: "D",
+  //    age: 21,
+  //  };
+  //   let UserObj2 = {
+  //     name: "Allahdad",
+  //     section: "D",
+  //     age: 21,
+  //   };
+
+  let std=["Allahdad","Asad","Akram"];
   return (
     <div>
       {/* <h1>Allahdad</h1> */}
@@ -18,37 +35,41 @@ function App() {
       <Login></Login>
       <Profile></Profile>
       <Setting></Setting> */}
-     {/* <h1>{UserKey},{10+20},{x*y}</h1>   */}
-     {/* use of variable in brackets */}
-     {/* <button onclick={()=>alert("Hello")}>click here</button> */}
+      {/* <h1>{UserKey},{10+20},{x*y}</h1>   */}
+      {/* use of variable in brackets */}
+      {/* <button onclick={()=>alert("Hello")}>click here</button> */}
 
       {/* <MyProfile></MyProfile>
 
      <h1>JSX with curly braces</h1>
      <JSWCB></JSWCB>  */}
 
+      {/* <CFcall></CFcall> */}
 
-     {/* <CFcall></CFcall> */}
+      {/* <State></State> */}
 
-     {/* <State></State> */}
+      {/* <Counter></Counter> */}
 
-    {/* <Counter></Counter> */}
+      {/* <Togel></Togel> */}
 
-    {/* <Togel></Togel> */}
+      {/* <MCondition></MCondition> */}
 
-      <MCondition></MCondition>
+      {/* <Prop name="Allahdad" age={29} email="chacharallahdad2@gmail.com"></Prop> */}
+      {/* above we can pass direct value or assign above both will work */}
+
+      {/* <Prop ad={UserObj}></Prop>
+      <Prop ad={UserObj1}></Prop>
+      <Prop ad={UserObj2}></Prop> */}
 
 
-
-
-
-
-
+      <Prop std={std}></Prop>
     </div>
   );
 }
-function Student() {
-  return <h1>Ahmed</h1>;
-}
+
+
+// function Student() {
+//   return <h1>Ahmed</h1>;
+// }
 
 export default App;
