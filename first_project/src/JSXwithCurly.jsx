@@ -1,7 +1,7 @@
 function JSWCB()
 {
     let name="Allahdad";    // variable
-    //const father="hameer khan";
+    const father="hameer khan";
     //function without parameter
     function classmate()
     {
