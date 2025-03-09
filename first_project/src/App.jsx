@@ -2,7 +2,11 @@
 // import MyProfile from './Exercise1Profile';
 // import JSWCB from './JSXwithCurly';
 // import CFcall from './Click_FunctionCall';
-import State from "./State_in_react";
+// import State from "./State_in_react";
+// import Counter from "./counter";
+// import Togel from "./Togel_hide";
+import MCondition from "./Multiple_condition";
+
 function App() {
   let x=10;
   let y=20;
@@ -26,7 +30,17 @@ function App() {
 
      {/* <CFcall></CFcall> */}
 
-        <State></State>
+     {/* <State></State> */}
+
+    {/* <Counter></Counter> */}
+
+    {/* <Togel></Togel> */}
+
+      <MCondition></MCondition>
+
+
+
+
 
 
 
