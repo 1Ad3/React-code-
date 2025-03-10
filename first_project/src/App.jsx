@@ -7,7 +7,8 @@
 // import Togel from "./Togel_hide";
 // import MCondition from "./Multiple_condition";
 // import Prop from "./Props";
-import DefaultProp from "./defaultprops";
+// import DefaultProp from "./defaultprops";
+import App1 from "./App1";
 
 function App() {
   // let UserObj={
@@ -69,13 +70,19 @@ function App() {
       {/* <DefaultProp />
       <DefaultProp /> */}
 
-      <DefaultProp color="orange">
+      {/* <DefaultProp color="orange">
         <h1>Allahdad</h1>
       </DefaultProp>
 
       <DefaultProp>
         <h1>Asad</h1>
-      </DefaultProp>
+      </DefaultProp> */}
+
+
+
+     {/* Note:Further I will export in App1 file */}
+
+      <App1></App1>
     </div>
   );
 }
