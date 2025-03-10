@@ -1,5 +1,4 @@
 //if we another component we do not pass the value than we assign default value in parameter
-// 
 
 
 
