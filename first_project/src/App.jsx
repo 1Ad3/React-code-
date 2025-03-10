@@ -6,7 +6,8 @@
 // import Counter from "./counter";
 // import Togel from "./Togel_hide";
 // import MCondition from "./Multiple_condition";
-import Prop from "./Props";
+// import Prop from "./Props";
+import DefaultProp from "./defaultprops";
 
 function App() {
   // let UserObj={
@@ -26,7 +27,7 @@ function App() {
   //     age: 21,
   //   };
 
-  let std=["Allahdad","Asad","Akram"];
+  // let std=["Allahdad","Asad","Akram"];
   return (
     <div>
       {/* <h1>Allahdad</h1> */}
@@ -60,9 +61,21 @@ function App() {
       {/* <Prop ad={UserObj}></Prop>
       <Prop ad={UserObj1}></Prop>
       <Prop ad={UserObj2}></Prop> */}
+      {/* <Prop std={std}></Prop> */}
 
+      {/* <DefaultProp name="Allahdad"></DefaultProp>
+      <DefaultProp name="Asad"></DefaultProp> */}
+      {/* above I not assign the value it will assign default value */}
+      {/* <DefaultProp />
+      <DefaultProp /> */}
 
-      <Prop std={std}></Prop>
+      <DefaultProp color="orange">
+        <h1>Allahdad</h1>
+      </DefaultProp>
+
+      <DefaultProp>
+        <h1>Asad</h1>
+      </DefaultProp>
     </div>
   );
 }
