@@ -8,7 +8,8 @@
 // import MCondition from "./Multiple_condition";
 // import Prop from "./Props";
 // import DefaultProp from "./defaultprops";
-import App1 from "./App1";
+// import App1 from "./App1";
+import App2 from "./App2";
 
 function App() {
   // let UserObj={
@@ -82,7 +83,8 @@ function App() {
 
      {/* Note:Further I will export in App1 file */}
 
-      <App1></App1>
+      {/* <App1></App1> */}
+      <App2></App2>
     </div>
   );
 }
